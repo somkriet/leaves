@@ -1,0 +1,13 @@
+TYPE=VIEW
+query=select `u`.`user_ID` AS `user_id`,`u`.`name_en` AS `name_en`,str_to_date(`u`.`start_date_work`,_utf8\'%m/%d/%Y\') AS `star1`,(case when ((year(now()) - year(str_to_date(`u`.`start_date_work`,_utf8\'%m/%d/%Y\'))) < 1) then 0 when ((year(now()) - year(str_to_date(`u`.`start_date_work`,_utf8\'%m/%d/%Y\'))) < 3) then 6 when ((year(now()) - year(str_to_date(`u`.`start_date_work`,_utf8\'%m/%d/%Y\'))) < 4) then 8 else 10 end) AS `anualleave` from `db_leave`.`user` `u`
+md5=f877e1f2163033c9b1e750f1f5f6d212
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=1
+with_check_option=0
+revision=1
+timestamp=2013-10-09 10:02:06
+create-version=1
+source=select `u`.`user_ID` AS `user_id`,`u`.`name_en` AS `name_en`,str_to_date(`u`.`start_date_work`,\'%m/%d/%Y\') AS `star1`,(case when ((year(now()) - year(str_to_date(`u`.`start_date_work`,\'%m/%d/%Y\'))) < 1) then 0 when ((year(now()) - year(str_to_date(`u`.`start_date_work`,\'%m/%d/%Y\'))) < 3) then 6 when ((year(now()) - year(str_to_date(`u`.`start_date_work`,\'%m/%d/%Y\'))) < 4) then 8 else 10 end) AS `anualleave` from `user` `u`

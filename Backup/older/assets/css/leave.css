@@ -1,0 +1,384 @@
+﻿/*border*/
+.bs-login {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-login:after {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-acceptation {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-acceptation:after {
+  content: "acceptation";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-message {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-message:after {
+  content: "Message";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-setting {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-setting:after {
+  content: "Setting";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-office {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-office:after {
+  content: "office and department";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-leave {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-leave:after {
+  content: "กรอกข้อมูลการลา / Leave requests";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-statistics_leave {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-statistics_leave:after {
+  content: "ประวัติการลา";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-non_working_time {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-non_working_time:after {
+  content: "วันหยุดประจำปี / Holiday Calendar ";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.bs-Leave-Regulation {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-Leave-Regulation:after {
+  content: "Leave Regulation";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+
+.bs-right {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-right:after {
+  content: "สิทธิ์การลา / Leave authority";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-user {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-user:after {
+  content: "ข้อมูลผู้ใช้";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-leave-detail {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-leave-detail:after {
+  content: "ข้อมูลการลา / Leave detail";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-leave-search-by-date {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-leave-search-by-date:after {
+  content: "ค้นหา";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+.bs-setting-user {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.bs-setting-user:after {
+  content: "Setting User";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+/*space*/
+.space-top{
+  padding-top: 20px;
+}
+
+.new-leaves {
+  top: -30px;
+  margin-left: -10px;
+}
+
+.new-modal-body{
+  height: 480px;
+}
+
+.new-table-center{
+  text-align: center;
+}
